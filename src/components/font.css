@@ -1,0 +1,44 @@
+/* fonts.css */
+@font-face {
+  font-family: "FugglesRegular";
+  src: url("./../components/fonts/Fuggles-Regular.ttf");
+}
+
+.welcome {
+  font-family: "FugglesRegular";
+  font-weight: lighter;
+  font-size: 90px;
+  color: #ad6c6b;
+  margin-left: 45px;
+  margin-top: -4%;
+}
+
+.about {
+  font-family: "FugglesRegular";
+  font-size: 128px;
+  font-weight: lighter;
+  color: #ad6c6b;
+}
+
+.title-container {
+  margin-top: 15rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+
+.paragraph-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+p {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding-left: 90px;
+  padding-right: 90px;
+  color: #ad6c6b;
+}

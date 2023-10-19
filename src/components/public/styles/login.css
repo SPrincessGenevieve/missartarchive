@@ -1,0 +1,25 @@
+.login-container {
+  background-color: #ffe1e1;
+  display: flex;
+  height: 100vh;
+}
+
+.login-subcontainer {
+  margin-top: 5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.login-container-white {
+  height: 30rem;
+  width: 30rem;
+  background-color: white;
+  border-radius: 30px;
+  box-shadow: 1px 1px 10px 10px #8b242431;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}

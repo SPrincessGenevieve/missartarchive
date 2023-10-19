@@ -1,0 +1,113 @@
+.nav {
+  position: fixed;
+  top: 0;
+  right: 0;
+  width: 100%;
+  z-index: 9999;
+}
+
+.nav ul {
+  list-style-type: none;
+  margin: 0;
+  height: 70px;
+  padding: 0;
+  display: flex;
+  backdrop-filter: blur(10px);
+  align-items: left;
+  text-align: center;
+  width: 100%;
+}
+
+.nav-item {
+  margin-right: 0;
+  width: 15%;
+}
+
+.nav-item:last-child {
+  margin-right: 0;
+}
+
+.active a,
+.active a:active {
+  color: blue;
+  font-weight: bold;
+  padding: 20px;
+  display: inline-block;
+  box-sizing: border-box;
+  text-align: center;
+  width: 100%;
+  border-bottom: 7px solid #ad6c6b;
+}
+
+.nav-item a {
+  text-decoration: none;
+  color: #ad6c6b;
+  transition: color 0.3s;
+  padding: 20px;
+  display: inline-block;
+  box-sizing: border-box;
+  width: 100%;
+  font-size: 20px;
+}
+
+.nav-item a:hover {
+  color: #ad6c6b;
+  background-color: white;
+  text-align: center;
+}
+
+@keyframes slideDown {
+  0% {
+    transform: translateY(-100%);
+    opacity: 0;
+  }
+  100% {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+.toggle-button {
+  display: none;
+  cursor: pointer;
+  margin-top: 20px;
+}
+
+.toggle-button .bar {
+  width: 25px;
+  height: 3px;
+  background-color: rgb(0, 255, 13);
+  margin: 4px 0;
+  margin-left: 20px;
+  transition: 0.4s;
+}
+
+.nav-list.show {
+  display: flex;
+  flex-direction: column;
+}
+
+.nav-item .logout-link {
+  display: flex;
+  width: 18rem;
+  justify-content: center;
+  text-align: center;
+}
+
+.todo-title {
+  cursor: pointer;
+}
+.completed-todo {
+  text-decoration: line-through;
+}
+.tab-list > span {
+  padding: 5px 8px;
+  border: 1px solid rgb(7, 167, 68);
+  border-radius: 10px;
+  margin-right: 5px;
+  cursor: pointer;
+}
+.tab-list > span.active {
+  background-color: rgb(6, 139, 12);
+  color: #fff;
+}

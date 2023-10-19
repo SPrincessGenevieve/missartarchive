@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/missart/static/css/main.444595dc.css",
+    "main.js": "/missart/static/js/main.922105b8.js",
+    "static/js/787.e8ca518f.chunk.js": "/missart/static/js/787.e8ca518f.chunk.js",
+    "static/media/Clouds.mp4": "/missart/static/media/Clouds.ba130c462e53f26344e6.mp4",
+    "static/media/Fuggles-Regular.ttf": "/missart/static/media/Fuggles-Regular.2ec55ab50521db39859d.ttf",
+    "static/media/background.png": "/missart/static/media/background.554faf7ae382afdeb8e1.png",
+    "static/media/terms.png": "/missart/static/media/terms.35a20fb4c5f9d4805b0f.png",
+    "static/media/cloud.png": "/missart/static/media/cloud.def11802d94edc4a0a86.png",
+    "index.html": "/missart/index.html",
+    "main.444595dc.css.map": "/missart/static/css/main.444595dc.css.map",
+    "main.922105b8.js.map": "/missart/static/js/main.922105b8.js.map",
+    "787.e8ca518f.chunk.js.map": "/missart/static/js/787.e8ca518f.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.444595dc.css",
+    "static/js/main.922105b8.js"
+  ]
+}

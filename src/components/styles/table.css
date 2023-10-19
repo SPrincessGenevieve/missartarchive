@@ -1,0 +1,143 @@
+.table-container {
+  padding: 10px;
+}
+.table {
+  border-collapse: collapse;
+  width: 100%;
+  border: 1.5px solid red;
+  border-bottom: 2px solid red;
+}
+
+.table-row {
+  border: 1px solid red;
+  display: flex;
+  justify-content: space-between;
+  background-color: #ffe8e8;
+}
+
+/*TABLE BODY*/
+.table-cell {
+  flex: 1;
+  display: flex;
+  border-top: 2px solid #ff0000;
+  background-color: white;
+}
+
+.table-body-row {
+  display: flex;
+}
+
+.table-cell.id {
+  width: 50px;
+}
+
+.table-cell.name {
+  width: 15rem;
+}
+.table-body-row {
+  display: flex;
+}
+
+.input {
+  border: none;
+  outline: none;
+  background-color: transparent;
+  width: 100%;
+  font-size: 15px;
+  color: red;
+}
+
+/*ICONS*/
+.table-cell-button {
+  background-color: #ffc7c7;
+  border-top: 2px solid #fd7b7b;
+}
+
+/*header title*/
+.column-cell {
+  background-color: #ffe8e8;
+}
+
+/*ID title*/
+.column-cell.id {
+  width: 10px;
+  color: #ff0000;
+  font-weight: bold;
+}
+
+.column-cell.name {
+  width: 250px;
+}
+.column-cell.date {
+  width: 150px;
+}
+
+.column-cell.fee {
+  width: 200px;
+}
+
+.column-cell.due {
+  width: 200px;
+}
+
+.column-cell.name {
+  font-weight: bold;
+  color: red;
+}
+
+.column-cell.date {
+  font-weight: bold;
+  color: red;
+}
+
+.column-cell.due {
+  font-weight: bold;
+  color: red;
+}
+
+.column-cell.fee {
+  font-weight: bold;
+  color: red;
+}
+
+.column-cell.contact {
+  font-weight: bold;
+  color: red;
+}
+
+.column-cell.email {
+  font-weight: bold;
+  color: red;
+}
+
+.column-cell.status {
+  font-weight: bold;
+  color: red;
+  width: 7rem;
+}
+
+.column-cell.action {
+  font-weight: bold;
+  color: #ff0000;
+}
+
+.pagination {
+  position: absolute;
+  display: flex;
+  width: 100%;
+  height: 100%;
+  align-items: center;
+  justify-content: center;
+  top: 0;
+  z-index: -1;
+}
+
+.label-page {
+  margin-top: 40%;
+}
+
+.search-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
