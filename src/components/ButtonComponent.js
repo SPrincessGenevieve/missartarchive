@@ -1,5 +1,5 @@
 import React from "react";
-import "./../components/public/styles/home.css";
+import "./Styles/ButtonComponent.css";
 import { Button } from "@mui/material";
 
 function ButtonComponent({ color, onClick, text, backgroundColor, zIndex }) {
@@ -9,9 +9,8 @@ function ButtonComponent({ color, onClick, text, backgroundColor, zIndex }) {
         style={{
           backgroundColor: backgroundColor,
           borderRadius: 7,
-          width: "23.5rem",
           zIndex: zIndex,
-          color: color
+          color: color,
         }}
         onClick={onClick}
         className="button-book"

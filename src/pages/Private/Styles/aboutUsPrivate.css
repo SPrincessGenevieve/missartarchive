@@ -1,0 +1,75 @@
+.about-container {
+  background-color: #ffe1e1;
+  background: linear-gradient(to bottom, #ffe1e1, white);
+  height: 100vh;
+  position: fixed;
+  width: 100%;
+}
+
+.about-container-private {
+  background-color: #ffe1e1;
+  background: linear-gradient(to bottom, #ffe1e1, white);
+  height: 100vh;
+  position: fixed;
+  width: 100%;
+  transform: translateY(-20px);
+  transition: opacity 1s, transform 1s;
+  opacity: 0;
+}
+
+.button-updatecontainer {
+  margin-left: 20px;
+}
+
+.about-subcontainer {
+  display: flex;
+  flex-direction: column;
+  margin-top: 5%;
+}
+
+.about-subcontainer-private {
+  display: flex;
+  flex-direction: column;
+  margin-top: 3%;
+}
+
+.fade-in {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.input-container-about {
+  display: flex;
+  flex-direction: column;
+  width: 100rem;
+  height: 20rem;
+}
+
+.textarea-update {
+  width: 100%;
+  height: 100%;
+  border: none;
+  resize: none;
+  overflow-y: hidden;
+  outline: none;
+  text-align: center;
+  background-color: transparent;
+  font-size: 15px;
+  color: "#ad6c6b";
+}
+
+.main-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+@media (max-width: 768px) {
+  .input-container-about {
+    padding: 20px;
+    margin-top: -20%;
+  }
+  .textarea-update {
+    text-align: justify;
+  }
+}

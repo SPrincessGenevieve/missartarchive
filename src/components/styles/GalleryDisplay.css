@@ -1,0 +1,12 @@
+.main-image {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: -25%;
+}
+@media (max-width: 768px) {
+  .main-image {
+    margin-top: -150%;
+  }
+}

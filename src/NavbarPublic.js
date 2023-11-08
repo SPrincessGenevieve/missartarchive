@@ -19,13 +19,9 @@ function Navbar(props) {
         <div className="bar"></div>
       </div>
       <ul className={`nav-list ${showNav ? "show" : ""}`}>
-        <li className={`nav-item logout-item ${showNav ? "show" : ""}`}>
-          <CustomLink className="logout-link" to="/">
-            HOME
-          </CustomLink>
-        </li>
-        <CustomLink to="/gallery">GALLERY</CustomLink>
-        <CustomLink to="/about">ABOUT US</CustomLink>
+        <CustomLink to="/">HOME</CustomLink>
+        <CustomLink to="/galleryPublic">GALLERY</CustomLink>
+        <CustomLink to="/aboutUsPublic">ABOUT US</CustomLink>
         <CustomLink to="/login">LOGIN</CustomLink>
       </ul>
     </nav>

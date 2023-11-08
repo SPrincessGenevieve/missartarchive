@@ -12,6 +12,7 @@
   }
   .nav ul {
     display: none;
+    height: 100vh;
   }
   .logout-link {
     margin-left: 8rem;

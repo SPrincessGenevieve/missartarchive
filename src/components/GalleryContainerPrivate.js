@@ -140,14 +140,13 @@ function GalleryContainer({
   };
 
   return (
-    <div>
+    <div className="container-gallery-all">
       {showButtons && (
-        <>
+        <div className="upload-button">
           <Button
             style={{
               outline: "none",
               border: "none",
-              backgroundColor: "transparent",
               alignItems: "center",
               display: "flex",
               color: "#ad6c6b",
@@ -164,26 +163,18 @@ function GalleryContainer({
             onChange={handleImageUpload}
             accept="image/*"
           />
-        </>
+        </div>
       )}
 
       {/* Display the selected image */}
       {selectedImage && (
         <div
-          className={`individualContainer transition-container ${
+          className={`individualContainer private transition-container ${
             fadeIn ? "fade-in" : ""
           }`}
-          style={{
-            height: "70%",
-            width: "100%",
-            alignItems: "center",
-            justifyContent: "center",
-            display: "flex",
-          }}
         >
           <GalleryDisplay
-            classNameImage={"individual-art-private"}
-            classNameDiv={"individual-container-private"}
+            className="image-img private"
             selectedImageId={selectedImage.id}
             selectedImageData={selectedImage}
             imageUrl={selectedImage.imageUrl}
@@ -201,25 +192,25 @@ function GalleryContainer({
       ) : null}
 
       <div
-        className={`divider-container transition-container ${
+        className={`divider-container private transition-container${
           fadeInHeader ? "fade-in" : ""
         }`}
       >
         <img
-          className="divider"
+          className="divider private"
           style={{ backgroundColor: "transparent" }}
           src={divider}
         ></img>
       </div>
       <div
-        className={`all-images transition-container ${
+        className={`all-images private transition-container  ${
           fadeInGallery ? "fade-in" : ""
         }`}
       >
         {groupImagesIntoRows().map((row, rowIndex) => (
           <div
             key={rowIndex}
-            className="image-gallery-container"
+            className="image-gallery-container private"
             style={{
               display: "flex",
               marginBottom: 20,
@@ -228,7 +219,7 @@ function GalleryContainer({
             {row.map((image) => (
               <div style={{ marginRight: 20 }}>
                 <ImageDisplay
-                  className="images-individual"
+                  className="images-individual private"
                   key={image.id}
                   imageId={image.id}
                   onClick={() => handleImageDelete(image.id)}

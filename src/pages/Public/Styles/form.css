@@ -1,0 +1,83 @@
+@font-face {
+  font-family: "Fuggles-Regular";
+  src: url("./../../../assets/fonts/Fuggles-Regular.ttf") format("ttf");
+  font-weight: normal;
+  font-style: normal;
+}
+
+.form-container {
+  background-color: #ffe1e1;
+  height: 100vh;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  flex: 1;
+}
+
+.input-container {
+  flex-direction: column;
+  margin-bottom: 25px;
+}
+
+.form-subcontainer {
+  height: 100%;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+}
+
+.white-container {
+  background-color: #ffffff;
+  width: 60%;
+  height: 70%;
+  border-radius: 50px;
+  transition: 0.5s;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.white-container:hover {
+  box-shadow: 1px 1px 10px rgba(97, 61, 61, 0.329);
+}
+
+.input-boxes {
+  width: 100%;
+  height: 100%;
+  margin-top: 2%;
+  margin-bottom: 4%;
+  padding: 2%;
+}
+
+.input-row {
+  flex-direction: row;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+}
+
+.inner-row {
+  display: flex;
+  margin-right: 5%;
+}
+
+.title-commssion {
+  font-family: Fuggles-Regular;
+  color: #e58f8f;
+  display: flex;
+}
+
+.cloud {
+  position: absolute;
+  left: 0;
+  top: 40vh;
+  width: 500px;
+  height: 500px;
+}
+
+@media (max-width: 768px) {}

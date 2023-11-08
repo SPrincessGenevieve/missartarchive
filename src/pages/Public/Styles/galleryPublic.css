@@ -1,0 +1,97 @@
+.gallery-container-public {
+  background: linear-gradient(to bottom, #ffe1e1, white);
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 100%;
+}
+
+.transition-container-gallery {
+  transform: translateY(-20px);
+  transition: opacity 1s, transform 1s;
+  opacity: 0;
+}
+
+.latest-art-public-container {
+  display: flex;
+  width: 100%;
+  height: 100%;
+  margin-top: 1%;
+  flex-direction: column;
+  align-items: center;
+}
+.individual-art-public-container {
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 3%;
+}
+.individual-art-public {
+  width: 50%;
+  height: 50%;
+  border-radius: 10%;
+}
+
+.title-public-gallery-container {
+  width: 100%;
+  text-align: center;
+}
+
+.divider-public-container {
+  display: flex;
+  width: 100%;
+  height: 30%;
+  justify-content: center;
+}
+.divider-public {
+  width: 20%;
+  height: 100%;
+}
+.gallery-all-public-container {
+  display: flex;
+  width: 100%;
+  height: auto;
+  align-items: center;
+  justify-content: center;
+  margin-top: 2%;
+}
+.fade-in {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.fade-in-art {
+  opacity: 1;
+  transform: translateY(0);
+  z-index: 10;
+}
+
+@media (max-width: 768px) {
+  .gallery-container-public {
+    display: flex;
+    flex: 1;
+    height: 100%;
+    width: 100%;
+  }
+  .gallery-all-public-container {
+    margin-top: 0%;
+  }
+  .gallery-all-public-container-subcontainer {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    width: 90%;
+    padding-left: 15px;
+  }
+  .latest-art-public {
+    margin-top: 50%;
+  }
+  .divider-public {
+    width: 70%;
+    height: 100%;
+  }
+  .individual-art-public-container {
+    width: 100%;
+    margin-bottom: 5%;
+  }
+}

@@ -1,0 +1,10 @@
+.image-gallery-container {
+  display: flex;
+  flex-direction: row;
+}
+@media (max-width: 768px) {
+  .image-gallery-container {
+    display: flex;
+    flex-direction: column;
+  }
+}
