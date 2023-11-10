@@ -110,7 +110,7 @@ function GalleryPublic({
           <h1 className="title-public-gallery">Welcome to the gallery</h1>
         </div>
 
-        {/*LATEST ART*/}
+        {/*LATEST ART
 
         <div
           className={`latest-art-public-container  transition-container-gallery${
@@ -131,7 +131,7 @@ function GalleryPublic({
           )}
         </div>
 
-        {/*LATEST ART*/}
+        LATEST ART*/}
 
         {/*DIVIDER*/}
         <div
