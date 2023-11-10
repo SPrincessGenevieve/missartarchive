@@ -167,7 +167,7 @@ function GalleryContainer({
         </>
       )}
 
-      {/* Display the selected image */}
+        {/* Display the selected image 
       {selectedImage && (
         <div
           className={`individualContainer transition-container ${
@@ -189,7 +189,8 @@ function GalleryContainer({
             imageUrl={selectedImage.imageUrl}
           />
         </div>
-      )}
+      )}*/}
+
 
       {/* Render ALL IMAGES HERE */}
 
